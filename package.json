@@ -1,0 +1,20 @@
+{
+  "name": "javascript_dom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "scripts": {
+    "build": "babel --presets es2015 src -d dist"
+  },
+ 
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "cli": "^1.0.1"
+  }
+}
